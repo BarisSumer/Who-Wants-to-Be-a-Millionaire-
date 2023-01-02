@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kim Milyoner Olmak İster?</title>
+</head>
+<body>
+  
+        <div id="money" class="container">
+            <div id="questionMoney"></div>
+        </div>
+    <div class="container container-2">
+        <div id="placeholder1"></div>
+        <div id="timer"></div>
+
+        <img src="kim-milyoner-logo.png" alt="">
+        
+        <div id="jokers">
+            <div id="placeholder"></div>
+            <div id="half">
+                <button id="halfButton" onclick="halfJoker()">Yarı Yarıya Jokeri </button>
+            </div>
+            <div id="spectator">
+                <button id="spectatorButton" onclick="spectatorJoker()">Seyirci Jokeri
+                 
+                </button>
+                <h4 id="spectatorText"></h4>
+            </div>
+            <div id="doubleAnswer">
+                <button onclick="doubleAnswer()" id="doubleAnswerButton">Çift Cevap Jokeri</button>
+            </div>
+            <button id="restart" onclick="restartGame()">Tekrar Oyna</button> 
+        </div>
+   
+    </div>
+    <div id="withdraw" class="container">
+        <button id="withdrawButton" onclick="withdraw() ">Çekil</button>
+    </div>
+    
+
+    
+    <div id="questionAndAnswers">
+        <div class="container">
+            <div id="question"></div>     
+        </div>
+       <div class="container">
+        <div id="answers" class="container-1">
+            <button  id ="A" class="button-answer button"></button>
+            <button  id ="B" class="button-answer button"></button>
+            <button  id ="C" class="button-answer button"></button>
+            <button  id ="D" class="button-answer button"></button>
+        </div>
+       </div>
+   
+    </div>
+    
+    
+  
+    
+
+
+
+
+
+           
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
